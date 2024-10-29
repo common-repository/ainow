@@ -1,0 +1,41 @@
+#ainow-legend-controller { 
+	cursor: help; 
+	display: inline-block;
+	margin-right: 1em;
+
+	#indentifier {
+		display: inline-block;
+	    vertical-align: top;
+	    margin-left: 10px;
+	}
+}
+
+#ainow-help {
+	display: inline-block;
+	margin-left: 1em;
+	text-decoration: none;
+}
+#ainow-help:hover { text-decoration: underline; }
+
+#ainow-legend { 
+	display: none; 
+	border-bottom: 3px solid #bdc3c7;
+}
+
+#ainow-stats {
+    width: 100%;
+    text-align: left;
+    border: 1px solid #bdc3c7;
+    border-collapse: collapse;
+    margin: 2em 0;
+
+    td,
+    th {
+	    border: 1px solid #bdc3c7;
+    	padding: 0.5em 0.75em;
+    	vertical-align: top;
+    }
+
+    th { font-size: 14px; }
+    td { font-size: 14px; }
+}

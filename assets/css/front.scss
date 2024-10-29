@@ -1,0 +1,32 @@
+#ainow-lsh {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+
+	.loader {
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+		border-radius: 100%;
+		background: #eee;		
+
+		-webkit-animation: loading 3s infinite; /* Chrome, Safari, Opera */
+    	animation: loading 3s infinite;
+	}
+}
+
+// Color changing animation
+@-webkit-keyframes loading {
+    0%   { background: #eee; transform: translateX(10px); }
+    25%  { background: #2ecc71; transform: translateX(-10px); }
+    50%  { background: #3498db; transform: translateX(10px); }
+    75%  { background: #9b59b6; transform: translateX(-10px); }
+    100% { background: #eee; transform: translateX(10px); }
+}
+@keyframes loading {
+    0%   { background: #eee; transform: translateX(10px); }
+    25%  { background: #2ecc71; transform: translateX(-10px); }
+    50%  { background: #3498db; transform: translateX(10px); }
+    75%  { background: #9b59b6; transform: translateX(-10px); }
+    100% { background: #eee; transform: translateX(10px); }
+}
